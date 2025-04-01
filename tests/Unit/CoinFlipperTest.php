@@ -12,4 +12,3 @@ test('returns heads or tails when second is not divisible by 7', function () {
     $result = CoinFlipper::flip();
     expect(['heads', 'tails'])->toContain($result);
 });
-
