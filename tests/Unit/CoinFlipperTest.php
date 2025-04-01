@@ -2,7 +2,7 @@
 
 use App\CoinFlipper;
 
-test('coin flip should never return null', function () {
+test('coin flip should never return null', function (): void {
     $result = CoinFlipper::flip();
     expect($result)->not()->toBeNull();
 });
